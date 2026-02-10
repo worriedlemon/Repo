@@ -1,0 +1,5 @@
+out
+CMakePresets.json
+.vs
+.idea
+cmake-build*
