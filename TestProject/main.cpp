@@ -13,7 +13,7 @@ void printHelp()
 /// @returns 0 if successfully exits, 1 otherwise
 int main(int argc, char* argv[])
 {
-	if (argc == 1)
+	if (argc > 1)
 	{
 		printHelp();
 		return 0;
