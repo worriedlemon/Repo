@@ -1,5 +1,6 @@
 ﻿#include <iostream>
 
+/// @brief Print help message in console
 void printHelp()
 {
 	std::cout << "Usage:\n"
