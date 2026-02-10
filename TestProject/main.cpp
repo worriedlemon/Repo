@@ -16,7 +16,7 @@ int main(int argc, char* argv[])
 	if (argc > 1)
 	{
 		printHelp();
-		return 0;
+		return 1;
 	}
 
 	std::cout << "Hello, \033[32mCMake Project\033[0m." << std::endl;
